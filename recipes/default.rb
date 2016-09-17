@@ -11,6 +11,24 @@ package 'httpd' do
 action :install
 end
 
+file '/var/www/html/index.html' do
+content "<html>
+
+<head>
+
+<title>Hello World</title>
+
+</head>
+
+<body>
+
+<h1>Hello World!</h1>
+
+</body>
+
+</html>"
+end
+
 service 'httpd' do 
 action :start
 end

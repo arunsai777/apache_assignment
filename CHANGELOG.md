@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the apache_assignment cookbook.
 
+##1.0.0
+- adding content
+
 ## 0.1.0
 - [your_name] - Initial release of apache_assignment
 
